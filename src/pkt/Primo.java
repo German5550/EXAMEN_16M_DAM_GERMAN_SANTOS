@@ -16,10 +16,10 @@ public class Primo {
 	}
 	
 	public static void primo() {
-		int primo=0;
+		int numero = 0;
 		Scanner ent = new Scanner(System.in);
 		System.out.println("Introduce un número para averiguar si es primo o no");
-		primo=ent.nextInt();
-	}
+		numero=ent.nextInt();    
+    }
 
 }
